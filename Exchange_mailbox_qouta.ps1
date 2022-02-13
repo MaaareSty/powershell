@@ -4,7 +4,7 @@
 
 
 $IncreaseByPercentage="30"  # Percentage more
-$Mailbox=""             #User samaccountname
+$Mailbox=""             #User AD samaccountname
 $default=Get-Mailbox $Mailbox | select -ExpandProperty UseDatabaseQuotaDefaults
 
 #exchange unlimited bug
